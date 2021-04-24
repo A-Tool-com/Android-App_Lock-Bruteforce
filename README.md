@@ -13,10 +13,10 @@ Connect victim (usb debugging enable) phone on your laptop using usb cable then 
 that will show devies is offline to bring that online disconnect usb from android phone then reconnect usb cable
 now again type (adb devices on a terminal) handshake will prompt on a android device click ok now you are good to go when victim will lock the screen you only have to plug usb cable to a victim phone run the Brute.sh file brute force will start
 
-To run the Brute.sh File 
+Steps to install
 
-Go to the location where you have saved the given file for Example if you have saved the file on Downloads just go to Download Directory using command :- cd Downloads 
-
-1st make Brute.sh file executable to do that just type (chmod +x Brute.sh) using terminal 
-now jst type ( ./Brute.sh ) without bracket :-P
-Brute Force will start on device it will start combination of all the 4 digit pin right from (0000 to 9999)
+1. git clone https://github.com/A-Tool-com/Android-App_Lock-Bruteforce.git
+2. chmod +x Brute.sh
+3. connect to the victim device(USB DEBUGGING is enable)
+4. ./Brute.sh
+5. Bruteforce has started
